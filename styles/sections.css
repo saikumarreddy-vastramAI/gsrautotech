@@ -677,10 +677,6 @@ footer { background: var(--color-bg); }
 }
 
 /* ===== HERO TYPING FIX ===== */
-.hero__content h1 {
-  font-size: clamp(1.8rem, 3.5vw, 3rem) !important;
-  line-height: 1.2;
-}
 .hero__static { color: var(--color-text); }
 .hero__typing-wrap {
   display: inline-block;
@@ -707,6 +703,7 @@ footer { background: var(--color-bg); }
   50% { opacity: 0; }
 }
 .hero__content h1 {
-  padding-bottom: 0.2em;
-  overflow: visible !important;
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  line-height: 1.25;
+  overflow: visible;
 }
