@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GSRAutotech — Automotive Cybersecurity</title>
+  <link rel="stylesheet" href="styles/theme.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/components.css" />
+  <link rel="stylesheet" href="styles/sections.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="#hero" class="navbar__logo">
+    <div class="navbar__logo-icon">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M10 2L3 6V10C3 13.87 6.13 17.5 10 18.5C13.87 17.5 17 13.87 17 10V6L10 2Z" fill="#070D1A"/>
+        <path d="M10 4.5L5 7.5V10C5 12.8 7.2 15.4 10 16.3C12.8 15.4 15 12.8 15 10V7.5L10 4.5Z" fill="#00C4FF"/>
+        <path d="M8 10L9.5 11.5L12.5 8.5" stroke="#070D1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    GSR<span class="accent">Autotech</span>
+  </a>
+
+  <div class="navbar__links">
+    <a href="#services">Services</a>
+    <a href="#standards">Standards</a>
+    <a href="#who-we-help">Who We Help</a>
+    <a href="#training">Training</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <a href="#contact" class="btn btn--primary navbar__cta">Book Free Consultation</a>
+
+  <button class="navbar__hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile nav -->
+<div class="navbar__mobile">
+  <a href="#services">Services</a>
+  <a href="#standards">Standards</a>
+  <a href="#who-we-help">Who We Help</a>
+  <a href="#training">Training</a>
+  <a href="#process">Process</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn--primary">Book Free Consultation</a>
+</div>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero__bg-grid"></div>
+  <div class="hero__glow hero__glow--1"></div>
+  <div class="hero__glow hero__glow--2"></div>
+
+  <div class="container hero__inner">
+
+    <div class="hero__content">
+      <div class="badge badge--accent reveal">🛡 Automotive Cybersecurity Specialists</div>
+
+      <h1 class="reveal reveal-delay-1">
+        Securing Every<br/>
+        <span class="hero__title-gradient">Vehicle. Every Standard.</span><br/>
+        Every Stage.
+      </h1>
+
+      <p class="hero__subtitle reveal reveal-delay-2">
+        From ISO 21434 compliance to TARA/HARA documentation and hands-on
+        product hardening — GSRAutotech partners with OEMs, Tier 1 &amp; Tier 2
+        suppliers to make cybersecurity a competitive advantage.
+      </p>
+
+      <div class="hero__actions reveal reveal-delay-3">
+        <a href="#contact" class="btn btn--primary btn--lg">Book Free Consultation</a>
+        <a href="#services" class="btn btn--ghost btn--lg">Explore Services</a>
+      </div>
+
+      <div class="hero__trust reveal reveal-delay-3">
+        <span class="hero__trust-label">Standards we cover:</span>
+        <div class="hero__standards-row">
+          <span class="badge badge--accent">ISO 21434</span>
+          <span class="badge badge--accent">UN R155</span>
+          <span class="badge badge--accent">UN R156</span>
+          <span class="badge badge--accent">WP.29</span>
+          <span class="badge badge--accent">ASPICE</span>
+          <span class="badge badge--amber">ISO 26262</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__card-stack">
+        <div class="hero__metric-card hero__metric-card--1">
+          <div style="font-size:1.4rem;margin-bottom:0.4rem;">🔒</div>
+          <div class="hero__metric-value">100+</div>
+          <div class="hero__metric-label">Projects Guided</div>
+        </div>
+        <div class="hero__metric-card hero__metric-card--2">
+          <div style="font-size:1.4rem;margin-bottom:0.4rem;">📋</div>
+          <div class="hero__metric-value">12</div>
+          <div class="hero__metric-label">Standards Covered</div>
+        </div>
+        <div class="hero__metric-card hero__metric-card--3">
+          <div style="font-size:1.4rem;margin-bottom:0.4rem;">✅</div>
+          <div class="hero__metric-value">100%</div>
+          <div class="hero__metric-label">Type Approval Rate</div>
+        </div>
+
+        <div class="hero__shield-wrap">
+          <svg class="hero__shield-svg" viewBox="0 0 220 260" fill="none">
+            <path d="M110 12L24 48V120C24 170 62 214 110 228C158 214 196 170 196 120V48L110 12Z"
+              fill="rgba(0,196,255,0.06)" stroke="rgba(0,196,255,0.3)" stroke-width="1.5"/>
+            <path d="M110 32L44 62V120C44 160 72 196 110 208C148 196 176 160 176 120V62L110 32Z"
+              fill="rgba(0,196,255,0.08)" stroke="rgba(0,196,255,0.25)" stroke-width="1"/>
+            <path d="M110 54L66 76V120C66 148 84 172 110 182C136 172 154 148 154 120V76L110 54Z"
+              fill="rgba(0,196,255,0.12)" stroke="rgba(0,196,255,0.4)" stroke-width="1.5"/>
+            <rect x="94" y="112" width="32" height="24" rx="4" fill="rgba(0,196,255,0.8)"/>
+            <path d="M100 112V106C100 102 103 99 107 99H113C117 99 120 102 120 106V112"
+              stroke="rgba(0,196,255,0.8)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+            <circle cx="110" cy="124" r="3" fill="#070D1A"/>
+          </svg>
+          <div class="hero__pulse hero__pulse--1"></div>
+          <div class="hero__pulse hero__pulse--2"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section section--dark">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">What We Do</span>
+      <h2>End-to-End Automotive Cybersecurity Services</h2>
+      <p>From gap analysis to type approval documentation — we handle every layer of your cybersecurity journey.</p>
+    </div>
+
+    <div class="grid-3">
+
+      <div class="card card--featured reveal">
+        <div class="icon-box">🔍</div>
+        <h3>Compliance & Gap Analysis</h3>
+        <div class="divider"></div>
+        <p class="text-muted">Benchmark your current state against ISO 21434, UN R155/R156 and WP.29. Get a clear prioritized roadmap to close compliance gaps before audit or type approval.</p>
+        <ul class="service-list mt-3">
+          <li>ISO 21434 compliance assessment</li>
+          <li>UN R155 CSMS gap analysis</li>
+          <li>Regulatory readiness scoring</li>
+        </ul>
+      </div>
+
+      <div class="card reveal reveal-delay-1">
+        <div class="icon-box">🗺</div>
+        <h3>TARA & HARA Development</h3>
+        <div class="divider"></div>
+        <p class="text-muted">Structured Threat Analysis and Risk Assessments (TARA) and Hazard Analysis (HARA) built to standard — traceable, audit-ready and connected to your architecture.</p>
+        <ul class="service-list mt-3">
+          <li>Asset identification & threat modeling</li>
+          <li>Risk evaluation & treatment</li>
+          <li>HARA linked to functional safety</li>
+        </ul>
+      </div>
+
+      <div class="card reveal reveal-delay-2">
+        <div class="icon-box icon-box--amber">📄</div>
+        <h3>Type Approval Documentation</h3>
+        <div class="divider"></div>
+        <p class="text-muted">Produce valid structured documentation required for UN type approval. We automate generation wherever possible so you get correct outputs faster.</p>
+        <ul class="service-list mt-3">
+          <li>CSMS & SUMS documentation</li>
+          <li>Evidence packages for authorities</li>
+          <li>Automated doc generation</li>
+        </ul>
+      </div>
+
+      <div class="card reveal">
+        <div class="icon-box icon-box--success">🔐</div>
+        <h3>Product Security Hardening</h3>
+        <div class="divider"></div>
+        <p class="text-muted">Work alongside your engineering team to embed security into the product — from ECU firmware to OTA update mechanisms. Hands-on implementation-level support.</p>
+        <ul class="service-list mt-3">
+          <li>Secure boot & key management</li>
+          <li>Network segmentation & IDS</li>
+          <li>OTA security architecture review</li>
+        </ul>
+      </div>
+
+      <div class="card reveal reveal-delay-1">
+        <div class="icon-box">⚙️</div>
+        <h3>CSMS & SUMS Implementation</h3>
+        <div class="divider"></div>
+        <p class="text-muted">Build and implement a Cybersecurity Management System and Software Update Management System that satisfies UN R155 and R156 end-to-end.</p>
+        <ul class="service-list mt-3">
+          <li>CSMS policy & process design</li>
+          <li>SUMS architecture planning</li>
+          <li>Internal audits & improvement</li>
+        </ul>
+      </div>
+
+      <div class="card reveal reveal-delay-2">
+        <div class="icon-box">🤝</div>
+        <h3>Embedded Consulting</h3>
+        <div class="divider"></div>
+        <p class="text-muted">Need a cybersecurity expert inside your team? We embed directly into your project — attending design reviews, supporting suppliers and acting as your security function.</p>
+        <ul class="service-list mt-3">
+          <li>Project-embedded security lead</li>
+          <li>Supplier security assessments</li>
+          <li>Security champion coaching</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- STANDARDS -->
+<section id="standards" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Standards Coverage</span>
+      <h2>Every Regulation. Fully Understood.</h2>
+      <p>We don't just know the standards — we help you navigate, interpret and demonstrate compliance to the authorities that matter.</p>
+    </div>
+
+    <div class="standards-grid reveal">
+
+      <div class="standard-item">
+        <div class="standard-item__header">
+          <span class="standard-item__code">ISO 21434</span>
+          <span class="badge badge--accent">Core</span>
+        </div>
+        <h4>Road Vehicles Cybersecurity Engineering</h4>
+        <p>The foundational standard defining cybersecurity processes across the full vehicle lifecycle — from concept through decommission.</p>
+      </div>
+
+      <div class="standard-item">
+        <div class="standard-item__header">
+          <span class="standard-item__code">UN R155</span>
+          <span class="badge badge--amber">Regulation</span>
+        </div>
+        <h4>Cyber Security & CSMS</h4>
+        <p>UN vehicle regulation requiring OEMs to have an approved Cybersecurity Management System before type approval can be granted.</p>
+      </div>
+
+      <div class="standard-item">
+        <div class="standard-item__header">
+          <span class="standard-item__code">UN R156</span>
+          <span class="badge badge--amber">Regulation</span>
+        </div>
+        <h4>Software Update & SUMS</h4>
+        <p>Governs how software updates are managed and secured across connected vehicles including OTA update processes.</p>
+      </div>
+
+      <div class="standard-item">
+        <div class="standard-item__header">
+          <span class="standard-item__code">WP.29</span>
+          <span class="badge badge--accent">Framework</span>
+        </div>
+        <h4>UNECE World Forum</h4>
+        <p>The broader UNECE regulatory framework under which R155 and R156 sit — understanding the ecosystem and how each regulation interlinks.</p>
+      </div>
+
+      <div class="standard-item">
+        <div class="standard-item__header">
+          <span class="standard-item__code">ASPICE</span>
+          <span class="badge badge--accent">Process</span>
+        </div>
+        <h4>Automotive SPICE</h4>
+        <p>Process capability assessment framework increasingly required by OEMs for Tier 1 suppliers. We prepare you for ASPICE assessments.</p>
+      </div>
+
+      <div class="standard-item">
+        <div class="standard-item__header">
+          <span class="standard-item__code">ISO 26262</span>
+          <span class="badge badge--accent">Safety</span>
+        </div>
+        <h4>Functional Safety</h4>
+        <p>Security and safety are deeply linked. We understand how HARA aligns with TARA and help you manage the interface between both domains.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHO WE HELP -->
+<section id="who-we-help" class="section section--accent">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Who We Help</span>
+      <h2>Built for the Automotive Supply Chain</h2>
+      <p>Whether you're an OEM navigating first-time type approval or a startup building a connected component — we have the right engagement model for you.</p>
+    </div>
+
+    <div class="grid-2" style="gap:1.5rem;">
+
+      <div class="who-card reveal">
+        <div class="who-card__icon">🏭</div>
+        <div>
+          <h3>OEMs</h3>
+          <p>Support across full vehicle cybersecurity lifecycle — from CSMS implementation and TARA development to type approval documentation and authority submissions.</p>
+          <div class="who-card__tags">
+            <span class="badge badge--accent">CSMS Setup</span>
+            <span class="badge badge--accent">Type Approval</span>
+            <span class="badge badge--accent">Supplier Oversight</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="who-card reveal reveal-delay-1">
+        <div class="who-card__icon">⚙️</div>
+        <div>
+          <h3>Tier 1 Suppliers</h3>
+          <p>Your OEM customers are asking for ISO 21434 evidence, TARA documentation and ASPICE scores. We help you build the processes and artifacts to satisfy these demands.</p>
+          <div class="who-card__tags">
+            <span class="badge badge--accent">TARA / HARA</span>
+            <span class="badge badge--accent">ASPICE Prep</span>
+            <span class="badge badge--accent">Customer Evidence</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="who-card reveal">
+        <div class="who-card__icon">🔩</div>
+        <div>
+          <h3>Tier 2 Suppliers</h3>
+          <p>Component and subsystem suppliers facing new security requirements from Tier 1 customers. We translate complex standards into practical actions at the component level.</p>
+          <div class="who-card__tags">
+            <span class="badge badge--accent">Component TARA</span>
+            <span class="badge badge--accent">Secure Design</span>
+            <span class="badge badge--accent">Requirement Flow-down</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="who-card reveal reveal-delay-1">
+        <div class="who-card__icon">🚀</div>
+        <div>
+          <h3>Startups & New Entrants</h3>
+          <p>Building a connected vehicle product for the first time? We help you design security in from day one — avoiding costly rework and preparing for the regulatory landscape ahead.</p>
+          <div class="who-card__tags">
+            <span class="badge badge--amber">Security by Design</span>
+            <span class="badge badge--amber">Regulatory Readiness</span>
+            <span class="badge badge--amber">Architecture Review</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TRAINING -->
+<section id="training" class="section section--dark">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Training</span>
+      <h2>Build Your Team's Cybersecurity Capability</h2>
+      <p>Practical automotive-specific cybersecurity training — not generic IT security content. Designed for engineers, project managers and leadership teams.</p>
+    </div>
+
+    <div class="training-grid">
+
+      <div class="training-card reveal">
+        <span class="training-card__badge badge badge--accent">Individual</span>
+        <h3>Professional Development Courses</h3>
+        <p class="text-muted" style="margin-top:0.5rem;">Self-paced and instructor-led courses for engineers and product managers entering automotive cybersecurity.</p>
+        <ul class="training-list">
+          <li><span>✓</span> ISO 21434 Fundamentals (2 days)</li>
+          <li><span>✓</span> TARA Methodology Workshop (1 day)</li>
+          <li><span>✓</span> UN R155/R156 for Practitioners</li>
+          <li><span>✓</span> Secure Coding for Automotive</li>
+          <li><span>✓</span> Certificate of completion</li>
+        </ul>
+        <a href="#contact" class="btn btn--outline" style="margin-top:1.5rem;">Enquire About Courses</a>
+      </div>
+
+      <div class="training-card training-card--corporate reveal reveal-delay-1">
+        <span class="training-card__badge badge badge--amber">Corporate</span>
+        <h3>On-Site Team Training</h3>
+        <p class="text-muted" style="margin-top:0.5rem;">Customised programmes delivered at your facility — built around your products, your team and your compliance goals.</p>
+        <ul class="training-list">
+          <li><span>✓</span> Tailored to your product domain</li>
+          <li><span>✓</span> Hands-on workshops with real threat models</li>
+          <li><span>✓</span> Awareness sessions for management</li>
+          <li><span>✓</span> Multi-day immersive bootcamps</li>
+          <li><span>✓</span> Post-training competency assessment</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary" style="margin-top:1.5rem;">Request Corporate Training</a>
+      </div>
+
+      <div class="training-highlight reveal reveal-delay-2">
+        <span class="label">Why our training stands out</span>
+        <div class="training-highlight__points">
+          <div class="training-highlight__point">
+            <span class="training-highlight__icon">🚗</span>
+            <div>
+              <strong>Automotive-First Content</strong>
+              <p>Every example and case study is drawn from real automotive programs — not generic cybersecurity.</p>
+            </div>
+          </div>
+          <div class="training-highlight__point">
+            <span class="training-highlight__icon">📐</span>
+            <div>
+              <strong>Standards-Mapped Curriculum</strong>
+              <p>Training outcomes mapped directly to ISO 21434 work products and UN R155 requirements.</p>
+            </div>
+          </div>
+          <div class="training-highlight__point">
+            <span class="training-highlight__icon">🎓</span>
+            <div>
+              <strong>Practitioner-Led</strong>
+              <p>Taught by consultants who implement these standards daily — not academics or generalist trainers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<div class="process-steps" id="processSteps">
+
+  <div class="process-step reveal">
+    <div class="process-step__icon">
+      📞
+      <span class="process-step__step">1</span>
+    </div>
+    <div class="process-step__content">
+      <h3>Discovery Call</h3>
+      <p>Free 30-minute session to understand your product, timeline and cybersecurity maturity. No commitment — just clarity.</p>
+      <span class="badge badge--accent">Free · 30 min</span>
+    </div>
+  </div>
+
+  <div class="process-step reveal reveal-delay-1">
+    <div class="process-step__icon">
+      🔎
+      <span class="process-step__step">2</span>
+    </div>
+    <div class="process-step__content">
+      <h3>Assessment & Scoping</h3>
+      <p>We review your architecture and documentation to produce a tailored compliance roadmap with clear milestones.</p>
+      <span class="badge badge--accent">1–2 weeks</span>
+    </div>
+  </div>
+
+  <div class="process-step reveal reveal-delay-2">
+    <div class="process-step__icon">
+      ⚡
+      <span class="process-step__step">3</span>
+    </div>
+    <div class="process-step__content">
+      <h3>Execution & Delivery</h3>
+      <p>We work alongside your team — producing TARAs, CSMS docs, training engineers and automating evidence generation.</p>
+      <span class="badge badge--accent">Project-based</span>
+    </div>
+  </div>
+
+  <div class="process-step reveal reveal-delay-3">
+    <div class="process-step__icon">
+      🏁
+      <span class="process-step__step">4</span>
+    </div>
+    <div class="process-step__content">
+      <h3>Review & Handover</h3>
+      <p>Final review, authority-ready documentation package and knowledge transfer so capability stays in-house.</p>
+      <span class="badge badge--accent">Ongoing support</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- CONTACT -->
+<section id="contact" class="section section--dark">
+  <div class="container">
+
+    <div class="contact-grid">
+
+      <!-- LEFT — Glow Panel -->
+      <div class="contact-left reveal">
+        <div class="contact-glow-panel">
+
+          <div class="contact-shield">
+            <svg viewBox="0 0 180 210" fill="none" width="160">
+              <path d="M90 8L20 38V95C20 138 50 174 90 186C130 174 160 138 160 95V38L90 8Z"
+                fill="rgba(0,196,255,0.06)" stroke="rgba(0,196,255,0.4)" stroke-width="1.5"/>
+              <path d="M90 28L38 52V95C38 128 60 158 90 168C120 158 142 128 142 95V52L90 28Z"
+                fill="rgba(0,196,255,0.08)" stroke="rgba(0,196,255,0.25)" stroke-width="1"/>
+              <path d="M90 50L56 68V95C56 118 70 138 90 146C110 138 124 118 124 95V68L90 50Z"
+                fill="rgba(0,196,255,0.15)" stroke="rgba(0,196,255,0.5)" stroke-width="1.5"/>
+              <rect x="76" y="88" width="28" height="22" rx="4" fill="rgba(0,196,255,0.9)"/>
+              <path d="M82 88V83C82 80 84.5 78 87 78H93C95.5 78 98 80 98 83V88"
+                stroke="rgba(0,196,255,0.9)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <circle cx="90" cy="99" r="2.5" fill="#070D1A"/>
+              <!-- circuit lines -->
+              <line x1="20" y1="95" x2="0" y2="95" stroke="rgba(0,196,255,0.2)" stroke-width="1"/>
+              <line x1="160" y1="95" x2="180" y2="95" stroke="rgba(0,196,255,0.2)" stroke-width="1"/>
+              <circle cx="0" cy="95" r="3" fill="rgba(0,196,255,0.4)"/>
+              <circle cx="180" cy="95" r="3" fill="rgba(0,196,255,0.4)"/>
+              <line x1="90" y1="186" x2="90" y2="210" stroke="rgba(0,196,255,0.2)" stroke-width="1"/>
+              <circle cx="90" cy="210" r="3" fill="rgba(0,196,255,0.4)"/>
+            </svg>
+            <div class="contact-shield__pulse"></div>
+            <div class="contact-shield__pulse contact-shield__pulse--2"></div>
+          </div>
+
+          <div class="contact-glow-panel__content">
+            <span class="label">Get In Touch</span>
+            <h2 style="margin-top:0.75rem;">Let's Secure Your<br/>Automotive Future</h2>
+            <p class="text-muted" style="margin-top:1rem;font-size:0.95rem;line-height:1.8;">
+              Whether you're starting from zero or need help with a specific compliance challenge — reach out and we'll respond within one business day.
+            </p>
+          </div>
+
+          <div class="contact-stats">
+            <div class="contact-stat">
+              <span class="contact-stat__value">24h</span>
+              <span class="contact-stat__label">Response Time</span>
+            </div>
+            <div class="contact-stat__divider"></div>
+            <div class="contact-stat">
+              <span class="contact-stat__value">100+</span>
+              <span class="contact-stat__label">Projects Done</span>
+            </div>
+            <div class="contact-stat__divider"></div>
+            <div class="contact-stat">
+              <span class="contact-stat__value">Free</span>
+              <span class="contact-stat__label">First Call</span>
+            </div>
+          </div>
+
+          <div class="contact-channels">
+            <a href="mailto:info@gsrautotech.com" class="contact-channel">
+              <span>📧</span>
+              <span>info@gsrautotech.com</span>
+            </a>
+            <div class="contact-channel">
+              <span>📍</span>
+              <span>India · Remote worldwide</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT — Form -->
+      <div class="contact-right reveal reveal-delay-1">
+        <form class="contact-form" novalidate>
+          <div class="contact-form__header">
+            <h3>Send Us a Message</h3>
+            <p class="text-muted">Fill in the form and we'll get back to you within 24 hours.</p>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Your Name *</label>
+              <input class="form-input" type="text" id="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="company">Company</label>
+              <input class="form-input" type="text" id="company" placeholder="Acme Motors" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Work Email *</label>
+            <input class="form-input" type="email" id="email" placeholder="you@company.com" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="role">Organisation Type</label>
+              <select class="form-select" id="role">
+                <option value="">Select one...</option>
+                <option>OEM</option>
+                <option>Tier 1 Supplier</option>
+                <option>Tier 2 Supplier</option>
+                <option>Startup / New Entrant</option>
+                <option>Individual Professional</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="interest">I'm interested in...</label>
+              <select class="form-select" id="interest">
+                <option value="">Select one...</option>
+                <option>Compliance & Gap Analysis</option>
+                <option>TARA / HARA Development</option>
+                <option>Type Approval Documentation</option>
+                <option>Product Security Hardening</option>
+                <option>Corporate Training</option>
+                <option>Individual Training Course</option>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Tell us about your challenge</label>
+            <textarea class="form-textarea" id="message" placeholder="Brief description of your project or question..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;">
+            Send Message →
+          </button>
+          <p class="form-note">We respond within 1 business day. Your information is never shared.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__top-inner">
+        <div class="footer__cta-text">
+          <h2>Ready to secure your<br/><span class="hero__title-gradient">automotive future?</span></h2>
+          <p>Book a free 30-minute discovery call. No commitment, just clarity.</p>
+        </div>
+        <a href="#contact" class="btn btn--primary btn--lg">Book Free Consultation →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__main">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <a href="#hero" class="navbar__logo" style="font-size:1.2rem;">
+            <div class="navbar__logo-icon">
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                <path d="M10 2L3 6V10C3 13.87 6.13 17.5 10 18.5C13.87 17.5 17 13.87 17 10V6L10 2Z" fill="#070D1A"/>
+                <path d="M10 4.5L5 7.5V10C5 12.8 7.2 15.4 10 16.3C12.8 15.4 15 12.8 15 10V7.5L10 4.5Z" fill="#00C4FF"/>
+                <path d="M8 10L9.5 11.5L12.5 8.5" stroke="#070D1A" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+              </svg>
+            </div>
+            GSR<span class="accent">Autotech</span>
+          </a>
+          <p>Expert automotive cybersecurity consulting and training. Helping OEMs, Tier 1 and Tier 2 suppliers navigate standards, achieve compliance and build secure products.</p>
+          <div class="footer__badges">
+            <span class="badge badge--accent">ISO 21434</span>
+            <span class="badge badge--accent">UN R155</span>
+            <span class="badge badge--accent">UN R156</span>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Services</h4>
+          <a href="#services">Gap Analysis</a>
+          <a href="#services">TARA &amp; HARA</a>
+          <a href="#services">Type Approval Docs</a>
+          <a href="#services">Product Hardening</a>
+          <a href="#services">CSMS &amp; SUMS</a>
+          <a href="#services">Embedded Consulting</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Training</h4>
+          <a href="#training">ISO 21434 Course</a>
+          <a href="#training">TARA Workshop</a>
+          <a href="#training">UN R155 Course</a>
+          <a href="#training">Corporate Training</a>
+          <a href="#training">Bootcamps</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#who-we-help">Who We Help</a>
+          <a href="#process">Our Process</a>
+          <a href="#standards">Standards</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="footer__bottom-inner">
+        <p>© 2025 GSRAutotech. All rights reserved.</p>
+        <div class="footer__bottom-standards">
+          <span>ISO 21434</span>
+          <span class="footer__dot"></span>
+          <span>UN R155</span>
+          <span class="footer__dot"></span>
+          <span>UN R156</span>
+          <span class="footer__dot"></span>
+          <span>WP.29</span>
+          <span class="footer__dot"></span>
+          <span>ASPICE</span>
+        </div>
+        <p>India · Remote worldwide</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
