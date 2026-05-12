@@ -706,3 +706,7 @@ footer { background: var(--color-bg); }
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+.hero__content h1 {
+  padding-bottom: 0.2em;
+  overflow: visible !important;
+}

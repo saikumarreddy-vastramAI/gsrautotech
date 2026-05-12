@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Typing animation in hero
   const typedEl = document.getElementById('typedText');
   if (typedEl) {
-    const words = ['Vehicle.', 'Standard.', 'Stage.', 'System.', 'ECU.'];
+    const words = ['Vehicle', 'Standard', 'Stage', 'System', 'ECU'];
     let wordIndex = 0;
     let charIndex = 0;
     let deleting = false;
