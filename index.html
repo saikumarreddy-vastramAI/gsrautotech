@@ -554,28 +554,28 @@
       <!-- RIGHT — Form -->
       <div class="contact-right reveal reveal-delay-1">
         <form class="contact-form" action="https://formspree.io/f/xpqbbqyv" method="POST">
-          <div class="contact-form__header">
+        <div class="contact-form__header">
             <h3>Send Us a Message</h3>
             <p class="text-muted">Fill in the form and we'll get back to you within 24 hours.</p>
-          </div>
-          <div class="form-row">
+        </div>
+        <div class="form-row">
             <div class="form-group">
-              <label class="form-label" for="name">Your Name *</label>
-              <input class="form-input" type="text" id="name" placeholder="John Smith" required />
+            <label class="form-label" for="name">Your Name *</label>
+            <input class="form-input" type="text" id="name" name="name" placeholder="John Smith" required />
             </div>
             <div class="form-group">
-              <label class="form-label" for="company">Company</label>
-              <input class="form-input" type="text" id="company" placeholder="Acme Motors" />
+            <label class="form-label" for="company">Company</label>
+            <input class="form-input" type="text" id="company" name="company" placeholder="Acme Motors" />
             </div>
-          </div>
-          <div class="form-group">
+        </div>
+        <div class="form-group">
             <label class="form-label" for="email">Work Email *</label>
-            <input class="form-input" type="email" id="email" placeholder="you@company.com" required />
-          </div>
-          <div class="form-row">
+            <input class="form-input" type="email" id="email" name="email" placeholder="you@company.com" required />
+        </div>
+        <div class="form-row">
             <div class="form-group">
-              <label class="form-label" for="role">Organisation Type</label>
-              <select class="form-select" id="role">
+            <label class="form-label" for="role">Organisation Type</label>
+            <select class="form-select" id="role" name="role">
                 <option value="">Select one...</option>
                 <option>OEM</option>
                 <option>Tier 1 Supplier</option>
@@ -583,11 +583,11 @@
                 <option>Startup / New Entrant</option>
                 <option>Individual Professional</option>
                 <option>Other</option>
-              </select>
+            </select>
             </div>
             <div class="form-group">
-              <label class="form-label" for="interest">I'm interested in...</label>
-              <select class="form-select" id="interest">
+            <label class="form-label" for="interest">I'm interested in...</label>
+            <select class="form-select" id="interest" name="interest">
                 <option value="">Select one...</option>
                 <option>Compliance & Gap Analysis</option>
                 <option>TARA / HARA Development</option>
@@ -596,17 +596,17 @@
                 <option>Corporate Training</option>
                 <option>Individual Training Course</option>
                 <option>General Enquiry</option>
-              </select>
+            </select>
             </div>
-          </div>
-          <div class="form-group">
+        </div>
+        <div class="form-group">
             <label class="form-label" for="message">Tell us about your challenge</label>
-            <textarea class="form-textarea" id="message" placeholder="Brief description of your project or question..."></textarea>
-          </div>
-          <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;">
+            <textarea class="form-textarea" id="message" name="message" placeholder="Brief description of your project or question..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;">
             Send Message →
-          </button>
-          <p class="form-note">We respond within 1 business day. Your information is never shared.</p>
+        </button>
+        <p class="form-note">We respond within 1 business day. Your information is never shared.</p>
         </form>
       </div>
 
