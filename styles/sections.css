@@ -32,13 +32,12 @@
 }
 .hero__inner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
   align-items: center;
   position: relative;
   z-index: 1;
   overflow: hidden;
-
 }
 .hero__content { display: flex; flex-direction: column; }
 .hero__content .badge { margin-bottom: 1.5rem; align-self: flex-start; }
@@ -67,9 +66,22 @@
   display: flex; 
   justify-content: center; 
   align-items: center;
-  overflow: hidden;
+  overflow: visible;
+  padding-right: 2rem;
 }
-.hero__card-stack { position: relative; width: 320px; height: 320px; }
+.hero__card-stack { 
+  position: relative; 
+  width: 300px; 
+  height: 340px;
+}
+.hero__metric-card--1 { top: 10px; left: -10px; }
+.hero__metric-card--2 { top: 10px; right: -10px; animation-delay: 1.2s; }
+.hero__metric-card--3 {
+  bottom: 20px; left: 50%;
+  transform: translateX(-50%);
+  animation: floatCard3 4s ease-in-out infinite;
+  animation-delay: 0.6s;
+}
 .hero__shield-wrap {
   position: absolute; inset: 0;
   display: flex; align-items: center; justify-content: center;
