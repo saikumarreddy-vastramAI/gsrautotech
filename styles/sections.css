@@ -41,13 +41,9 @@
 .hero__content { display: flex; flex-direction: column; }
 .hero__content .badge { margin-bottom: 1.5rem; align-self: flex-start; }
 .hero__title-gradient {
-  background: linear-gradient(135deg, #00C4FF 0%, #7B8FFF 50%, #00D68F 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-accent);
   display: block;
-  padding-bottom: 0.3em;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .hero__subtitle {
   margin-top: 1.5rem;
