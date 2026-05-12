@@ -45,6 +45,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  display: block;
+  padding-bottom: 0.3em;
+  line-height: 1.5;
 }
 .hero__subtitle {
   margin-top: 1.5rem;
