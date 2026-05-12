@@ -675,3 +675,34 @@ footer { background: var(--color-bg); }
   .footer__bottom-inner { flex-direction: column; text-align: center; }
   .footer__bottom-standards { justify-content: center; }
 }
+
+/* ===== HERO TYPING FIX ===== */
+.hero__content h1 {
+  font-size: clamp(1.8rem, 3.5vw, 3rem) !important;
+  line-height: 1.2;
+}
+.hero__static { color: var(--color-text); }
+.hero__typing-wrap {
+  display: inline-block;
+  position: relative;
+}
+.hero__typed {
+  background: linear-gradient(135deg, #00C4FF 0%, #7B8FFF 50%, #00D68F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero__cursor {
+  display: inline-block;
+  width: 3px;
+  height: 0.85em;
+  background: var(--color-accent);
+  margin-left: 4px;
+  vertical-align: middle;
+  animation: blink 0.8s step-end infinite;
+  -webkit-text-fill-color: initial;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}

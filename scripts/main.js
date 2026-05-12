@@ -96,4 +96,48 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.3 }).observe(processSteps);
   }
 
+  // Typing animation in hero
+  const typedEl = document.getElementById('typedText');
+  if (typedEl) {
+    const words = ['Vehicle.', 'Standard.', 'Stage.', 'System.', 'ECU.'];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
+    let pause = false;
+
+    function type() {
+      const current = words[wordIndex];
+
+      if (pause) {
+        setTimeout(type, 1500);
+        pause = false;
+        return;
+      }
+
+      if (!deleting) {
+        typedEl.textContent = current.substring(0, charIndex + 1);
+        charIndex++;
+        if (charIndex === current.length) {
+          pause = true;
+          deleting = true;
+          setTimeout(type, 1500);
+          return;
+        }
+        setTimeout(type, 80);
+      } else {
+        typedEl.textContent = current.substring(0, charIndex - 1);
+        charIndex--;
+        if (charIndex === 0) {
+          deleting = false;
+          wordIndex = (wordIndex + 1) % words.length;
+          setTimeout(type, 300);
+          return;
+        }
+        setTimeout(type, 40);
+      }
+    }
+
+    setTimeout(type, 1000);
+  }
+
 });
